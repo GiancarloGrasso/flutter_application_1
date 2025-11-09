@@ -46,7 +46,7 @@ class MyHomePage extends StatelessWidget {
           Text('A random idea:'),
           Text(appState.current.asSnakeCase),
         ElevatedButton(onPressed: appState.getNext,
-        child: Text("Data changed!"))
+        child: Text("Seconda versione!"))
         ],
       ),
     );
